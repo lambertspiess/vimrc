@@ -1,0 +1,12 @@
+[submodule "ale"]
+	path = ale
+	url = ./bundle/ale
+[submodule "tlib_vim"]
+	path = tlib_vim
+	url = ./bundle/tlib_vim
+[submodule "vim-airline"]
+	path = vim-airline
+	url = ./bundle/vim-airline
+[submodule "vim-autocomplpop"]
+	path = vim-autocomplpop
+	url = ./bundle/vim-autocomplpop

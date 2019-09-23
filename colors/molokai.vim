@@ -65,6 +65,9 @@ hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold
 hi ModeMsg         guifg=#E6DB74
 hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#F92672
+hi cOperator       ctermfg=white
+
+"hi Operator        guifg=#F92672
 
 " complete menu
 hi Pmenu           guifg=#66D9EF guibg=#000000

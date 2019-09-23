@@ -1,5 +1,5 @@
-execute pathogen#infect()
 set nocompatible
+execute pathogen#infect()
 syntax on
 set mouse=a
 
@@ -18,14 +18,24 @@ set cc=80
 " Show line numbers
 set number
 
-set backspace=indent,eol,start
-set complete-=i
-set smarttab
-
 " Folding
 set foldmethod=indent
 set foldlevel=1
 set foldclose=all
+
+" Tabulation size
+set tabstop=4
+
+" Tabs placeholders
+set list
+set listchars=tab:▸.
+
+" Make sure toUse real tabs instead of spaces
+set softtabstop=0 noexpandtab
+
+set backspace=indent,eol,start
+set complete-=i
+set smarttab
 
 " --------------------------------- Themes ---------------------------------  
 
